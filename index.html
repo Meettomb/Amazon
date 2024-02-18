@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Amazon.in</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://www.shutterstock.com/image-vector/amazon-initial-logo-isolated-white-600nw-2272856739.jpg">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/content.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Document</title>
+
+<style>
+
+</style>
+</head>
+<body>
+<!--===================================================HEADER=============================================-->
+<!--===================================================HEADER=============================================-->
+
+<header>
+    <span class="menu-bar" onclick="sideNav()">&#9776;</span>
+        <div class="sidenavbar" id="sidenavbar">
+            <div class="sidenave-part1">                
+                <div class="sidenave-part1-1">
+                    <i id="profil-pic" class="fa fa-user"></i><br>
+                        <p class="profile-name">Hello, Sign in</p>
+                </div>
+            </div>
+            <div class="category">
+                <h2 class="category-head">Movis, Show & Music</h2>
+                <a href="" class="sidenavbar-a">Amazon Prime</a>
+                <a href="" class="sidenavbar-a">Amazon miniTv</a>
+                <a href="" class="sidenavbar-a">Prime Music</a><hr>
+                <h2 class="category-head">Shop By Category</h2>
+                <a href="" class="sidenavbar-a">Mobile</a>
+                <a href="" class="sidenavbar-a">TV, Appliances, Electronic</a>
+                <a href="" class="sidenavbar-a">Men's Fashion</a>
+                <a href="" class="sidenavbar-a">Women's Fashion</a>
+                <a href="" class="sidenavbar-a">Books</a>
+                <a href="" class="sidenavbar-a">Headphone, Henspry, Air buds</a><hr>
+                <h2 class="category-head">Help & Settings</h2>
+                <a href="" class="sidenavbar-a">Your Account</a>
+                <a href="" class="sidenavbar-a">Custemer Service</a>
+                <a href="login.html" class="sidenavbar-a">Sign in</a>
+            </div>
+            
+        </div>
+        <div class="xnavdiv" id="Xnavdiv" onclick="closeNavbar()">
+            
+        </div>
+    <img class="logo" src="https://www.nicepng.com/png/full/16-167642_amazon-logo-amazon-logo-white-text.png" alt="HOME">
+
+    <div class="location">
+            <i id="location3" class="fa fa-map-marker"> Delivering To Ahmedabad 380051</i> 
+    </div>
+    <div class="m-s-sb">
+        <select class="menu" name="Menu">
+            <option class="all" value="">All</option>
+            <option value="">Phone</option>
+            <option value="">Laptop</option>
+            <option value="">A.C</option>
+            <option value="">T.V</option>
+        </select>
+        <input class="search" type="search" placeholder="search Amazon.in">
+        <button class="s-button"><i id="search" class="fa fa-search"></i></button>
+    </div>
+
+    <div class="u-l">
+        <ul class="ul">
+            <li class="li1"><a href="login.html">Hello, Sign in<br>LOGIN</a></li>
+            <li class="li1"><a href="history">Return<br><b>&Order</b></a></li>
+            <li class="li1"><a href="Cart"><i id="cart" class="fa fa-shopping-cart"></i></a></li>
+        </ul>
+    </div>
+</header>
+<nav id="navbar">
+    
+        <button class="fa-bar" id="down" onclick="godown()">Go Down</button>       
+    
+
+    <div class="nav-div1">
+        <ul class="ul2">
+            <li class="li2" id="li1"><a href="">Amazon minTV</a></li>
+            <li class="li2" id="li2"><a href="">Fresh</a></li>
+            <li class="li2" id="li3"><a href="">Sell</a></li>
+            <li class="li2"><a href="">Brands</a></li>
+            <!--<li class="li2">Today's Deal</li> -->
+            <li class="li2"><a href="">Mobile</a></li>
+            <li class="li2"><a href="">Electronic's</a></li>
+            <li class="li2"><a href="">Home & Kitchen</a></li>
+            <li class="li2"><a href="">Custemer Servis</a></li>
+        </ul>
+
+        <div class="prime">
+            <a class="p2" href="https://www.primevideo.com/offers/nonprimehomepage/ref=dvm_pds_amz_in_as_s_gm_16_mkw_symCJqBmk-dc?mrntrk=pcrid_657901934582_slid__pgrid_84577172528_pgeo_1007753_x__adext__ptid_kwd-339065342343"><p>Prime Videos</p></a>   
+        </div>
+    </div>    
+</nav>
+
+
+<!--================================================PHONE HEADER=============================================-->
+<!--================================================PHONE HEADER=============================================-->
+<div class="phone-header">
+    <div class="phone-header1">
+        <div class="p-menu">
+            <span class="p-span-1" onclick="openNav()">&#9776;</span>
+                                <div id="mySidenav" class="sidenav">
+                                    <div class="phone-sidenave-part1">                
+                                        <div class="phone-sidenave-part1-1">
+                                            <i id="phone-profil-pic" class="fa fa-user"></i><br>
+                                                <p class="phone-profile-name">Hello, Sign in</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="phone-category">
+                                        <h2 class="phone-category-head">Movis, Show & Music</h2>
+                                        <a href="" class="phone-sidenavbar-a">Amazon Prime</a>
+                                        <a href="" class="phone-sidenavbar-a">Amazon miniTv</a>
+                                        <a href="" class="phone-sidenavbar-a">Prime Music</a><hr>
+                                        <h2 class="phone-category-head">Shop By Category</h2>
+                                        <a href="" class="phone-sidenavbar-a">Mobile</a>
+                                        <a href="" class="phone-sidenavbar-a">TV, Appliances, Electronic</a>
+                                        <a href="" class="phone-sidenavbar-a">Men's Fashion</a>
+                                        <a href="" class="phone-sidenavbar-a">Women's Fashion</a>
+                                        <a href="" class="phone-sidenavbar-a">Books</a>
+                                        <a href="" class="phone-sidenavbar-a">Headphone, Henspry, Air buds</a><hr>
+                                        <h2 class="phone-category-head">Help & Settings</h2>
+                                        <a href="" class="phone-sidenavbar-a">Your Account</a>
+                                        <a href="" class="phone-sidenavbar-a">Custemer Service</a>
+                                        <a href="login.html" class="phone-sidenavbar-a">Sign in</a>
+                                    </div>
+
+
+                                </div>
+                                <div class="x-div" id="Xdiv" onclick="closeNav()">
+                                </div>
+        </div>                
+        
+        <img class="p-h-logo" src="https://www.nicepng.com/png/full/16-167642_amazon-logo-amazon-logo-white-text.png">
+        <div class="p-h-r">
+            <div class="sign">
+                <a href="login.html" class="sign-a">
+                    <span>Sign in <h6>&gt;</h6></span>
+                </a>
+                <a href="login.html" class="sign-a-fa">
+                    <i id="fa-user" class="fa fa-user"></i>
+                </a>
+            </div>  
+            <a class="p-cart" href="#"><i id="p-h-cart" class="fa fa-shopping-cart"></i></a>          
+        </div>
+    </div>
+    <div>
+        <div class="phone-header2">
+            <input class="p-h-search" type="search" placeholder="search Amazon.in" name="" id="">
+            <div class="p-h-s-button-div">
+                <button class="p-h-s-button"><i id="fafa-search" class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <div class="p-h-nav">
+            <div class="p-h-nav-list">
+                <a href="" class="p-nav-list"><h5>shop By</h5><br>Categoty</a>
+                <a href="" class="p-nav-list">Your List</a>
+                <a href="" class="p-nav-list">Deals</a>
+                <a href="" class="p-nav-list">Sell</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="phone-nav">
+    <p class="p-location"><i id="fa-loc" class="fa fa-map-marker"></i> Delivering To Ahmedabad 380051</p>
+</div>
+
+<!--==============================================Content===============================================-->
+<!--==============================================Content===============================================-->
+<!--==============================================Content===============================================-->
+<div class="content-div1">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="slider-img" src="IMAGE/slide3.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="slider-img" src="IMAGE/slide2.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="slider-img" src="IMAGE/slide1.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="slider-img" src="IMAGE/slide4.jpg" alt=""></div>
+        </div>
+    </div>
+  
+    <div class="deal_div">  
+        <main>  
+            <div class="deal">
+                <div class="head">
+                    <h1>Revamp your home in style</h1>
+                </div>
+                <section id="products">
+                    <img class="deal_image" src="IMAGE/deal1.jpg" alt="">
+                    <h2>Cushion covers, bedsheets</h2>
+                </section>
+                <section id="home-storage">
+                    <img class="deal_image" src="IMAGE/deal2.jpg" alt="">
+                    <h2>Figurines, vases and more</h2>
+                </section>
+                <section id="lighting">
+                    <img class="deal_image" src="IMAGE/deal3.jpg" alt="">
+                    <h2>Home storage</h2>
+                </section>
+                <section id="offers">
+                    <img class="deal_image" src="IMAGE/deal4.jpg" alt="">
+                    <h2>Lighting solutions</h2>
+                </section>
+                <section>
+                    <a class="a" href="">Explore All</a>
+                </section>
+            </div>
+
+            <div class="deal">
+                <div class="head">
+                    <h1>Styles for man</h1>
+                </div>
+                <section id="products">
+                    <img class="deal_image" src="IMAGE/deal5.jpg" alt="">
+                    <h2>Clothing</h2>
+                </section>
+                <section id="home-storage">
+                    <img class="deal_image" src="IMAGE/deal6.jpg" alt="">
+                    <h2>Footware</h2>
+                </section>
+                <section id="lighting">
+                    <img class="deal_image" src="IMAGE/deal7.jpg" alt="">
+                    <h2>Watches</h2>
+                </section>
+                <section id="offers">
+                    <img class="deal_image" src="IMAGE/deal8.jpg" alt="">
+                    <h2>Bag & wallets</h2>
+                </section>
+                <section>
+                    <a class="a" href="">Explore All</a>
+                </section>
+            </div>
+
+            <div class="deal">
+                <div class="head">
+                    <h1>Up to 70% off | Headphones</h1>
+                </div>
+                <section id="products">
+                    <img class="deal_image" src="IMAGE/brand1.jpg" alt="">
+                    <h2>Up to 70% off | Boat</h2>
+                </section>
+                <section id="home-storage">
+                    <img class="deal_image" src="IMAGE/brand2.jpg" alt="">
+                    <h2>Up to 70% off | Noice</h2>
+                </section>
+                <section id="lighting">
+                    <img class="deal_image" src="IMAGE/brand3.jpg" alt="">
+                    <h2>Up to 70% off | Boult</h2>
+                </section>
+                <section id="offers">
+                    <img class="deal_image" src="IMAGE/brand4.jpg" alt="">
+                    <h2>Up to 70% off | Zebronics</h2>
+                </section>
+                <section>
+                    <a class="a" href="">Explore All</a>
+                </section>
+            </div>
+
+            <div class="deal">
+                <div class="head">
+                    <h1>Styles for woman</h1>
+                </div>
+                <section id="products">
+                    <img class="deal_image" src="IMAGE/deal9.jpg" alt="">
+                    <h2>Womans Clothing</h2>
+                </section>
+                <section id="home-storage">
+                    <img class="deal_image" src="IMAGE/deal10.jpg" alt="">
+                    <h2>Footware + Handbags</h2>
+                </section>
+                <section id="lighting">
+                    <img class="deal_image" src="IMAGE/deal11.jpg" alt="">
+                    <h2>Watches</h2>
+                </section>
+                <section id="offers">
+                    <img class="deal_image" src="IMAGE/deal12.jpg" alt="">
+                    <h2>Fashion jewellary</h2>
+                </section>
+                <section>
+                    <a class="a" href="">Explore All</a>
+                </section>
+            </div>
+
+
+            <div class="deal">
+                <div class="head">
+                    <h1>All your home improvement needs</h1>
+                </div>
+                <section id="products">
+                    <img class="deal_image" src="IMAGE/deal13.jpg" alt="">
+                    <h2>Spin mops, wipes & more</h2>
+                </section>
+                <section id="home-storage">
+                    <img class="deal_image" src="IMAGE/deal14.jpg" alt="">
+                    <h2>Bathroom accessioris</h2>
+                </section>
+                <section id="lighting">
+                    <img class="deal_image" src="IMAGE/deal15.jpg" alt="">
+                    <h2>Hammers, screwdrivers & more</h2>
+                </section>
+                <section id="offers">
+                    <img class="deal_image" src="IMAGE/deal16.jpg" alt="">
+                    <h2>Extension boards, plugs & more</h2>
+                </section>
+                <section>
+                    <a class="a" href="">Explore All</a>
+                </section>
+            </div>
+
+            <div class="deal">
+                <div class="head">
+                    <h1>Electronic Products</h1>
+                </div>
+                <section id="products">
+                    <img class="deal_image" src="IMAGE/deal17.jpg" alt="">
+                    <h2>T.V</h2>
+                </section>
+                <section id="home-storage">
+                    <img class="deal_image" src="IMAGE/deal18.jpg" alt="">
+                    <h2>Smartphone</h2>
+                </section>
+                <section id="lighting">
+                    <img class="deal_image" src="IMAGE/deal19.jpg" alt="">
+                    <h2>Laptop</h2>
+                </section>
+                <section id="offers">
+                    <img class="deal_image" src="IMAGE/deal20.jpg" alt="">
+                    <h2>Speakers</h2>
+                </section>
+                <section>
+                    <a class="a" href="">Explore All</a>
+                </section>
+            </div>
+
+            <div class="deal">
+                <div class="head">
+                    <h1>Laptop Accessioris</h1>
+                </div>
+                <section id="products">
+                    <img class="deal_image" src="IMAGE/deal21.jpg" alt="">
+                    <h2>Laptp Covers</h2>
+                </section>
+                <section id="home-storage">
+                    <img class="deal_image" src="IMAGE/deal22.jpg" alt="">
+                    <h2>Up to 70% off | Noice</h2>
+                </section>
+                <section id="lighting">
+                    <img class="deal_image" src="IMAGE/deal23.jpg" alt="">
+                    <h2>Up to 70% off | Boult</h2>
+                </section>
+                <section id="offers">
+                    <img class="deal_image" src="IMAGE/deal24.jpg" alt="">
+                    <h2>Up to 70% off | Zebronics</h2>
+                </section>
+                <section>
+                    <a class="a" href="">Explore All</a>
+                </section>
+            </div>
+
+            <div class="deal">
+                <div class="head">
+                    <h1>Groceries</h1>
+                </div>
+                <section id="products">
+                    <img class="deal_image" src="IMAGE/deal25.jpg" alt="">
+                    <h2>Fruits</h2>
+                </section>
+                <section id="home-storage">
+                    <img class="deal_image" src="IMAGE/deal26.jpg" alt="">
+                    <h2>Vegetables</h2>
+                </section>
+                <section id="lighting">
+                    <img class="deal_image" src="IMAGE/deal27.jpg" alt="">
+                    <h2>Saffola oil</h2>
+                </section>
+                <section id="offers">
+                    <img class="deal_image" src="IMAGE/deal28.jpg" alt="">
+                    <h2>Garam masala</h2>
+                </section>
+                <section>
+                    <a class="a" href="">Explore All</a>
+                </section>
+            </div>
+        </main>  
+    </div>
+
+    
+</div>
+
+
+<!--==================================================FOOTER===============================================-->
+<!--==================================================FOOTER===============================================-->
+<!--==================================================FOOTER===============================================-->
+<footer id="footer1">
+        <hr>
+        <div class="f-sign">
+            <span class="span1">See personalized recommendations</span><br>
+            <div class="f-button-s">
+                <button class="sign-button" onclick="login();">Sign in</button>
+            </div>
+            <span class="span2">New customer? <a href="#" class="loginlink"> Start hear.</a></span>
+        </div><hr>
+
+        <div class="f-back">
+            <button class="bactotop" onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
+        </div>
+    <div class="f-foter-back">
+        <div class="f-foter-div">
+            <div class="f-links1">
+                <ul class="f-ul-1">
+                    <li class="f-li">Get to Know US</li>
+                    <li class="f-li-1"><a class="f-a-1" href="">About Us</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Careers</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Prees Releases</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Amazon Science</a></li>
+                </ul>
+            </div>
+
+            <div class="f-links2">
+                <ul class="f-ul-1">
+                    <li class="f-li">Connect With Us</li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Fecbook</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Instagram</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Twitter</a></li>
+                </ul>
+            </div>
+
+            <div class="f-links3">
+                <ul class="f-ul-1">
+                    <li class="f-li">Make Money with Us</li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Sell on Amazon</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Sell under Amazon Accelerator</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Protect and Build Your Brand</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Amazon Global Selling</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Become an Affiliate</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Fulfilment by Amazon</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Advertise Your Products</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Amazon Pay on Merchants</a></li>
+                </ul>
+            </div>
+
+            <div class="f-links4">
+                <ul class="f-ul-1">
+                    <li class="f-li">Let Us Help You</li>
+                    <li class="f-li-1"><a class="f-a-1" href="">COVID-19 and Amazon</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Your Account</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Returns Centre</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">100% Purchase Protection</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Amazon App Download</a></li>
+                    <li class="f-li-1"><a class="f-a-1" href="">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </div><hr class="hr-f">
+
+        <div class="language">
+            <div class="button-l">
+                <img class="footer-logo" src="https://www.nicepng.com/png/full/16-167642_amazon-logo-amazon-logo-white-text.png" alt="">
+                <button class="language-button"><i id="globel" class="fa fa-globe"></i> Enhlish </button>
+            </div>
+            <div class="language2">
+                <ul class="lan">
+                    <li class="lan-list">Inida</li>
+                    <li class="lan-list">Frence</li>
+                    <li class="lan-list">Portugal</li>
+                    <li class="lan-list">Australia</li>
+                    <li class="lan-list">Japan</li>
+                    <li class="lan-list">Italy</li>
+                    <li class="lan-list">China</li>
+                    <li class="lan-list">Turky</li>
+                    <li class="lan-list">Brazil</li>
+                    <li class="lan-list">Singapore</li>
+                    <li class="lan-list">Spain</li>
+                    <li class="lan-list">Canada</li>
+                    <li class="lan-list">Mexico</li>
+                    <li class="lan-list">Netherland</li>
+                </ul>
+                <ul class="lan">
+                    <li class="lan-list2">United Arab Emirates</li>
+                    <li class="lan-list2">United Kingdom</li>
+                    <li class="lan-list2">United States</li>
+                </ul>
+            </div>
+        </div>
+ <!--==========================================================================================-->
+ <!--==========================================================================================-->
+        <div class="last-f-div">
+            <div class="last-f-div1">
+                <ul class="f-ul-2">
+                    <a href="" class="f-a-2">
+                        AbeBooks <br>
+                        Books, art <br>
+                        & collectibles 
+                    </a>
+                </ul>
+                <ul class="f-ul-2">
+                    <a href="" class="f-a-2">
+                        Amazon Web Services <br>
+                        Scalable Cloud <br>
+                        Computing Services 
+                    </a>
+                </ul>
+                <ul class="f-ul-2">
+                    <a href="" class="f-a-2">
+                        Audible <br>
+                        Download <br>
+                        Audio Books
+                    </a>
+                </ul>
+                <ul class="f-ul-2">
+                    <a href="" class="f-a-2">
+                        IMDb <br>
+                        Movies, TV <br>
+                        & Celebrities                        
+                    </a>
+                </ul>
+            </div>
+            <!--========================================-->
+            <div class="last-f-div2">
+                <ul class="f-ul-3">
+                    <a href="" class="f-a-3">
+                        Shopbop <br>
+                        Designer <br>
+                        Fashion Brands
+                    </a>
+                </ul>
+                <ul class="f-ul-3">
+                    <a href="" class="f-a-3">
+                        Amazon Business <br>
+                        Everything For <br>
+                        Your Business
+                    </a>
+                </ul>
+                <ul class="f-ul-3">
+                    <a href="" class="f-a-3">
+                        Prime Now <br>
+                        2-Hour Delivery <br>
+                        on Everyday Items
+                    </a>
+                </ul>
+                <ul class="f-ul-3">
+                    <a href="" class="f-a-3">
+                        Amazon Prime Music <br>
+                        100 million songs, ad-free <br>
+                        Over 15 million podcast episodes                      
+                    </a>
+                </ul>
+            </div>
+            <hr>
+            <!--=====================================-->
+            <div class="last" id="">
+                <div class="last-f-div3" id="">
+                    <a href="" class="f-a-4">Conditions of Use & Sale</a>
+                    <a href="" class="f-a-4">Privacy Notice</a>
+                    <a href="" class="f-a-4">Interest-Based Ads</a>
+                </div>
+                    <p class="last-f-p">&copy 1996-2023, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+
+<!--==============================FOOTER2=============================================================-->
+ 
+</footer>
+
+<!--================================================PHONE FOOTER=============================================-->
+<!--================================================PHONE FOOTER=============================================-->
+
+<footer id="footer2" class="phone-footer">
+    <div class="phone-f-bac_to_top">
+        <div>
+            <i id="fa-up" class="fa fa-sort-up"></i>
+        </div>
+        <button class="phone-bactotop" onclick="topFunction()" id="myBtn" title="Go to top">Top Of Page</button>
+    </div>
+
+    <div class="phone-f_link-div">
+        <ul class="p-l-ul1">
+            <li class="p-l-li1"><a class="p-l-a1" href="">Your Amazon</a></li>
+            <li class="p-l-li1"><a class="p-l-a1" href="">Amazon Pay</a></li>
+            <li class="p-l-li1"><a class="p-l-a1" href="">Your Lists</a></li>
+            <li class="p-l-li1"><a class="p-l-a1" href="">Sell On Amazon</a></li>
+        </ul>
+        <ul class="p-l-ul2">
+            <li class="p-l-li2"><a class="p-l-a2" href="">Your Order</a></li>
+            <li class="p-l-li2"><a class="p-l-a2" href="">Your Account</a></li>
+            <li class="p-l-li2"><a class="p-l-a2" href="">Returns</a></li>
+            <li class="p-l-li2"><a class="p-l-a2" href="">Custemer Service</a></li>
+        </ul>
+    </div>
+
+    <div class="p-l-button">
+        <div>
+            <i id="p-globel" class="fa fa-globe"></i> 
+        </div>
+        <button class="p-language-button">English </button>
+    </div>
+
+    <div class="p-f-login">
+        <p class="p-f-p">Already a customer? <a href="#"> Sign in</a></p>
+
+        <div class="p-f-con">
+            <div class="p-f-po" id="">
+                <a href="" class="p-f-a3">Conditions of Use & Sale</a>
+                <a href="" class="p-f-a3">Privacy Notice</a>
+                <a href="" class="p-f-a3">Interest-Based Ads</a>
+            </div>
+                <p class="p-last">&copy 1996-2023, Amazon.com, Inc. or its affiliates</p>
+        </div>
+
+    </div>
+</footer>
+
+
+
+<script>
+/*==================================================nav Brar UP and DOWN======================================*/
+let mybutton = document.getElementById("navbar");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 50) {
+    mybutton.style.display = "none";
+  } else {
+    mybutton.style.display = "block";
+  }
+}
+
+/*==============================================BACK TO TOP=====================================================*/
+function topFunction() 
+    {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    } 
+
+var btnUp=document.getElementById("myBtn")
+btnUp.onclick=function scrollTop() {
+window.scroll(20000, window.screenY + 0);
+}
+
+
+/*==============================================GO DOWN=====================================================*/
+
+var btnDown=document.getElementById("down");
+btnDown.onclick=function scrollDown() {
+window.scroll(0, window.scrollY + 20000);
+}
+
+/*=========================================PHONE SIZE SIDE_NAV========================================*/
+
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("Xdiv").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("Xdiv").style.width = "0";
+    }
+/*=========================================DECSTOP SIZE SIDE-NAV===========================================*/
+
+
+function sideNav() {
+          document.getElementById("sidenavbar").style.width = "300px";
+          document.getElementById("Xnavdiv").style.width = "100vw";
+        }
+        
+        function closeNavbar() {
+          document.getElementById("sidenavbar").style.width = "0";
+          document.getElementById("Xnavdiv").style.width = "0";
+        }
+
+
+function login(){
+    window.location.href = "login.html"
+}
+
+
+
+
+
+
+
+
+  
+const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 5000,
+                disableOnInteractin: false,
+            },
+ 
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+
+</script>
+
+</body>
+</html>

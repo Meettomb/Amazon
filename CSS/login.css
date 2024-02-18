@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chiled{
+    max-width: 50%;
+    min-width: 20%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.form_child{
+    max-width: 100%;
+    min-width: 22%;
+    border: 1px rgba(0, 0, 0, 0.128) solid;
+    border-radius: 10px;
+    padding: 10px 0px 10px 20px;
+    font-size: 90%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fild{
+    margin-top: 15px;
+}
+form label{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 90%;
+}
+form input{
+    width: 90%;
+    padding: 5px 0 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 17px;
+}
+.login{
+    margin-top: 15px;
+}
+.login button{
+    width: 94%;
+    font-size: 17px;
+    background-image: linear-gradient(to left,#ebd916,#ffea00);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
+.regi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.regi a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.regi a:hover{
+    text-decoration: underline;
+    color: rgb(192, 9, 9);
+}
+
+#nameError {
+    display: none;
+    font-size: 0.8em;
+  }
+  
+  #nameError.visible {
+    display: block;
+  }
+  
+
+  #nameError2 {
+    display: none;
+    font-size: 0.8em;
+  } 
+  #nameError2.visible2 {
+    display: block;
+  }
+
+  #nameError3 {
+    display: none;
+    font-size: 0.8em;
+  } 
+  #nameError3.visible3 {
+    display: block;
+  }
+
+  #nameError4 {
+    display: none;
+    font-size: 0.8em;
+  } 
+  #nameError4.visible4 {
+    display: block;
+  }
+  
+  input.invalid {
+    border-color: red;
+    box-shadow: 0 0 2px 0 red;
+    animation: 0.1s invelid;
+  }
+  @keyframes invelid{
+    50%{transform: rotate(2deg);}
+    100%{transform: rotate(-2deg);}
+  }

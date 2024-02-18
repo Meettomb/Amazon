@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content-div1
+{
+    width: 100%;
+    height: auto;
+    margin-top: 79px;
+    background-color: #e4e3e3;
+    padding: 0 0 0px 0;
+    margin-bottom: -250px;
+}
+.swiper
+{
+    width: 99%;
+    height: 600px;
+    z-index: -999;
+    cursor: pointer;
+}
+.slider-img
+{
+    width: 100%;
+}
+.swiper-button-prev
+{
+    color: #222;
+    height: 44%;
+    margin-top: -19.5%;
+    width: 5%;
+    background: transparent;
+    border: none;
+    text-shadow: 2px 0px 2px white;
+}
+.swiper-button-prev:focus
+{
+    border: 1.9px rgb(20, 194, 130) solid;
+    outline: 2.4px white solid;
+    border-radius: 5px;
+}
+.swiper-button-next
+{
+    color: #222;
+    height: 44%;
+    margin-top: -19.5%;
+    width: 5%;
+    background: transparent;
+    border: none;
+    text-shadow: -2px 0px 2px white;
+}
+.swiper-button-next:focus
+{
+    border: 1.9px rgb(20, 194, 130) solid;
+    outline: 2.4px white solid;
+    border-radius: 5px;
+}
+.ok
+{
+    backdrop-filter: blur(8px);
+}
+
+.con_container{
+    width: 100%;
+    height: auto;
+    padding: 0 0 20px 0;
+}
+
+.deal_div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -260px;
+    z-index: 5;
+    backdrop-filter: blur(5px);
+}
+.head{
+    font-size: 12px;
+    height: 50px;
+    padding:10px 0 10px 5px;
+    display: flex;
+    align-items: center;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+.deal{
+    width: 23%;
+    height: auto;
+    background-color: white;
+    padding: 0px 0 20px 0;
+    margin-bottom: 30px;
+}
+section{
+    row-gap: 10px;
+    font-size: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+section:hover{
+    opacity: 0.9;
+}
+section h2{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+section:nth-child(even){
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 48%;
+    margin-left: 5px;
+    flex-wrap: nowrap;
+    margin-right: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+section:nth-child(odd) {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 48%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+section img{
+    width: 160px;
+    height: 120px;
+}
+.a{
+    color: blue;
+    font-size: 16px;
+}
+.a:hover{
+    text-decoration: underline;
+}
+
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+/* ==================================================================================== */
+
+
+@media (min-width:563px) and (max-width: 1182px){
+    .swiper-button-prev{
+        margin-top: -10%;
+    }
+}
+@media (min-width:563px) and (max-width: 693px){
+    .content-div1{
+        margin-top: 61px;
+    }
+ }
+@media (min-width:425px) and (max-width: 593px){
+    .content-div1{
+        margin-top: 55px;
+    }
+ }
+@media (min-width:25px) and (max-width: 425px){
+    .content-div1{
+        margin-top:0px;
+    }
+}
+
+@media (min-width:957px) and (max-width: 1342px){
+    .deal_div{
+        top: -350px;
+    }
+    .deal{
+        width: 30%;
+    }
+    section img{
+        width: 100%;
+    }
+    .content-div1{
+        margin-bottom: -330px;
+    }
+    
+}
+@media (min-width:768px) and (max-width: 957px){
+    .deal_div{
+        top: -400px;
+    }
+    .deal{
+        width: 45%;
+    }
+    section img{
+        width: 100%;
+        height: 140px;
+    }
+    .content-div1{
+        margin-bottom: -400px;
+    }
+}
+@media (min-width:625px) and (max-width: 768px){
+    .deal_div{
+        top: -450px;
+    }
+    .deal{
+        width: 45%;
+    }
+    section img{
+        width: 100%;
+        height: 140px;
+    }
+    .content-div1{
+        margin-bottom: -450px;
+    }
+}
+@media (min-width:425px) and (max-width: 625px){
+    .deal_div{
+        top: -450px;
+    }
+    .head{
+        font-size: 16px;
+    }
+    .deal{
+        width: 90%;
+    }
+    section img{
+        width: 100%;
+        height: 170px;
+    }
+    .content-div1{
+        margin-bottom: -450px;
+    }
+}
+@media (min-width:25px) and (max-width: 425px){
+    .deal_div{
+        top: -500px;
+    }
+    .head{
+        font-size: 16px;
+    }
+    .deal{
+        width: 98%;
+    }
+    section img{
+        width: 100%;
+        height: 130px;
+    }
+    .content-div1{
+        margin-bottom: -500px;
+    }
+}
