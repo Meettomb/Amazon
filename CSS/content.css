@@ -161,6 +161,7 @@ section img{
     width: 96%;
     padding: 10px 0 10px 0;
     height: auto;
+    margin-top: -20px;
 }
 
 .brand_image::-webkit-scrollbar-thumb{
@@ -290,6 +291,9 @@ section img{
     .head{
         font-size: 16px;
     }
+    .deal_div{
+        margin-top: 230px;
+    }
     .deal{
         width: 98%;
     }
@@ -299,5 +303,23 @@ section img{
     }
     .content-div1{
         height: auto;
+    }
+    .brand_image img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .brand_image::-webkit-scrollbar-thumb{
+        background-color: rgb(36, 36, 43);
+        border-radius: 50px; 
+        width: 50%;
+    }
+    .brand_image::-webkit-scrollbar-track{
+        display: none;
+        cursor: pointer;
+    }
+    .brand_image::-webkit-scrollbar{
+        display: block;
+        height: 10px;
     }
 }
