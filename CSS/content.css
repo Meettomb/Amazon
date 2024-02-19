@@ -62,7 +62,7 @@
 .con_container{
     width: 100%;
     height: auto;
-    padding: 0 0 20px 0;
+    padding: 0 0 0px 0;
 }
 
 .deal_div{
@@ -143,6 +143,55 @@ section img{
 .a:hover{
     text-decoration: underline;
 }
+
+.barnd_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p_b{
+    background-color: white;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.brand{
+    width: 96%;
+    padding: 10px 0 10px 0;
+    height: auto;
+}
+
+.brand_image::-webkit-scrollbar-thumb{
+    background-color: rgb(36, 36, 43);
+    border-radius: 50px; 
+}
+.brand_image::-webkit-scrollbar-track{
+    display: none;
+    cursor: pointer;
+}
+.brand_image::-webkit-scrollbar{
+    display: block;
+    height: 7px;
+}
+.brand_image{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    column-gap: 20px;
+    overflow-x: scroll;
+}
+.brand_image img{
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+
 
 /* ==================================================================================== */
 /* ==================================================================================== */
@@ -235,8 +284,8 @@ section img{
     }
 }
 @media (min-width:25px) and (max-width: 425px){
-    .deal_div{
-        top: -500px;
+    .swiper{
+        height: auto;
     }
     .head{
         font-size: 16px;
@@ -249,6 +298,6 @@ section img{
         height: 130px;
     }
     .content-div1{
-        margin-bottom: -500px;
+        height: auto;
     }
 }
